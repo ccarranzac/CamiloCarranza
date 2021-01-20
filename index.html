@@ -1,45 +1,203 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"/>
+        <title>C.C.C.C</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- estilo css-->
-    <link rel="stylesheet" href="css/estilo.css">
-    
-    <title>Home</title>
+        <!-- Importar BOX ICONS-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-  </head>
-  <body>
-    <div class="box">
-      <div class="glitch" data-text="C.C.C.C">C.C.C.C</div>
-  </div>
-  <a title="Github" href="https://github.com/ccarranzac" target="_blank"><img style='width:100px;height:100px;margin-left: 50px;' src="img/github.png" alt="Github"/></a>
-  <a title="LinkedIn" href="https://www.linkedin.com/in/camilo-andrés-carranza-carvajal-89957814a/" target="_blank"><img style='width:100px;height:100px;margin-left: 50px;' src="img/ln.png" alt="LinkedIn"/></a>
-  <a title="Kaggle" href="https://www.kaggle.com/camilocarranza" target="_blank"><img style='width:250px;height:100px;margin-left: 50px;' src="img/kaggle.png" alt="Kaggle"/></a>
-  <div  class="textoGrad">
-    <p >DISPONIBLE<br> A PARTIR DEL 14/01/2020</p>
-  </div>
-  <!--<script src="node_modules/animejs/lib/anime.min.js"></script>
-  <script>
+    </head>
+    <body>
+        <!-- Header-->
+        <header class="header1">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav_logo">C.C.C.C</a>
+                </div>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#project" class="nav_link">Projects</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toogle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <!-- Parte Principal body-->
+        <main class="main1">
+        <!-- Home-->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_titulo">Hola,
+                    <br>Yo soy
+                    <span class="home_titulo-color">Camilo,</span><br>
+                    Estudiante de Ingeniería de <br>Sistemas y Computación
+                </h1>
+                <a href="#" class="boton">Contacto</a>
+            </div>
+            <br>
+            <div class="home_social">
+                
+                <a href="#" class="home_social-icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="home_social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="#" class="home_social-icon"><i class='bx bx-shape-polygon'></i></a>
+            </div>
+            <br>
+            
+        </section>
+        <!-- About-->
+        <section class="about seccion " id="about">
+            <h2 class="seccion-titulo">About</h2>
 
-  </script>-->
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <center>
+                        <img src="imagenes/perfil.png" alt="">
+                    </center>
+                </div>
+                
+                <div>
+                    <br>
+                    <h2 class="about__subtitle">Camilo Andrés Carranza</h2>
+                    <br>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Etiam aliquet erat eu tincidunt aliquet. Pellentesque risus lacus, fringilla
+                         et porta dictum, suscipit at risus. Duis tincidunt condimentum massa vel mattis.
+                         Proin dapibus eros quis accumsan tempus. Curabitur lorem quam, sollicitudin nec
+                         lacus lobortis, mollis euismod nisi. Donec in dolor a risus pellentesque pulvinar
+                         in vel enim. Donec cursus semper neque vel commodo. Nulla id tincidunt magna.
+                         Ut at risus ligula. Praesent hendrerit efficitur egestas. Etiam aliquet lorem at
+                         ex vulputate pretium. Fusce dolor sem, ultricies sit amet placerat nec, tristique
+                         sit amet sapien. Donec venenatis, eros ac ultrices placerat, urna sem commodo turpis,
+                         non ullamcorper justo turpis et enim.</p>           
+                </div>                                   
+            </div>
+        </section>
+        <!-- Skills-->
+        <section class="skills seccion" id="skills">
+            <h2 class="seccion-titulo">Skills</h2>
+            <div class="skills_container bd-grid">
+                <div>
+                    <h2 class="skills_subtitulo">Profesional Skills</h2>
+                    <p class="skills_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam aliquet erat eu tincidunt aliquet. Pellentesque risus lacus, fringilla
+                        et porta dictum, suscipit at risus. Duis tincidunt condimentum massa vel mattis.
+                        Proin dapibus eros quis accumsan tempus. Curabitur lorem quam, sollicitudin nec
+                        lacus lobortis, mollis euismod nisi. Donec in dolor a risus pellentesque pulvinar
+                        in vel enim. Donec cursus semper neque vel commodo. Nulla id tincidunt magna.
+                        Ut at risus ligula. Praesent hendrerit efficitur egestas. Etiam aliquet lorem at
+                        ex vulputate pretium. Fusce dolor sem, ultricies sit amet placerat nec, tristique
+                        sit amet sapien. Donec venenatis, eros ac ultrices placerat, urna sem commodo turpis,
+                        non ullamcorper justo turpis et enim.</p>
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-html5 skills__icon' ></i>
+                                <span class="skills_names">HTML5</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">75%</span>
+                            </div>
+                            <div class="skills_bar skills_html"></div>
+                        </div>
 
-    
-  
-  
-    <!-- Optional JavaScript; choose one of the two! -->
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-css3 skills__icon' ></i>
+                                <span class="skills_names">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">70%</span>
+                            </div>
+                            <div class="skills_bar skills_css"></div>
+                        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script-->
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills_names">JAVASCRIPT</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">70%</span>
+                            </div>
+                            <div class="skills_bar skills_js"></div>
+                        </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-  </body>
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bx-code-curly skills__icon' ></i>
+                                <span class="skills_names">JAVA</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">75%</span>
+                            </div>
+                            <div class="skills_bar skills_j"></div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-python skills__icon' ></i>
+                                <span class="skills_names">PYTHON</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">70%</span>
+                            </div>
+                            <div class="skills_bar skills_python"></div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="project seccion" id="project">
+            <h2 class="seccion-titulo">Projects</h2>
+            <div class="project_container bd-grid">
+                <div class="project_img">
+                    <img src="imagenes/work.jpg" alt="">  
+                </div>
+                <br><br>
+                <div class="project_img">
+                    <img src="imagenes/work.jpg" alt="">
+                </div>
+                <br><br>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact seccion" id="contact">
+            <h2 class="seccion-titulo">Contact</h2>
+                <div class="contact_container bd-grid">
+                    <form action="" class="contact_form">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+                        <input type="button" value="Enviar" class="contact_button boton">
+                    </form>
+                </div>
+        </section>
+        
+        </main>
+        <!-- Footer-->
+        <footer class="footer">
+            <p class="footer_title">Camilo</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="#" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer_icon"><i class='bx bxl-youtube' ></i></a>
+            </div>
+
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+        <!-- JS Principal-->  
+        <script src="js/main.js"></script>
+        <!-- Scroll Reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
 </html>
