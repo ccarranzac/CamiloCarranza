@@ -26,3 +26,33 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click',linkAction))
+
+/*=animacion scroll*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+/*scroll home*/
+sr.reveal('.home_titulo',{}); 
+sr.reveal('.boton',{delay: 200}); 
+sr.reveal('.home_img',{delay: 400}); 
+sr.reveal('.home_social-icon',{ interval: 200}); 
+
+/*scroll about*/
+sr.reveal('.about__img',{}); 
+sr.reveal('.about__subtitle',{delay: 400}); 
+sr.reveal('.about__text',{delay: 400}); 
+
+/*acroll skills*/
+sr.reveal('.skills_subtitle',{}); 
+sr.reveal('.skills_text',{}); 
+sr.reveal('.skills_data',{interval: 200}); 
+
+/*scroll projects*/
+sr.reveal('.project_img',{interval: 200}); 
+
+/*scroll contact*/
+sr.reveal('.contact_input',{interval: 200}); 
